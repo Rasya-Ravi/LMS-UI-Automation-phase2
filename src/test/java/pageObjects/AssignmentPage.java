@@ -10,7 +10,7 @@ public class AssignmentPage {
 	
 	WebDriver driver;
 	
-    By lmstitle = By.xpath("//title");
+    By  lmstitle = By.xpath("//title");
 	By Assignment_link = By.xpath("//Assignment");
 	By Header =By.xpath("//header");
 	By Footer = By.xpath("//footer");

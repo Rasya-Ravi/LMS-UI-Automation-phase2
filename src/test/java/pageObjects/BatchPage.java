@@ -20,7 +20,7 @@ public class BatchPage {
 	  WebDriver  driver;
 
 	public BatchPage(WebDriver driver) {
-		this.driver = driver;
+		this.driver =  driver;
 	}
 	public String parentwindow=driver.getWindowHandle(); 
 	By clkBatchBtn = By.xpath("//div[@class='element-list collapse show']");

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LogInPage {
 
-	  WebDriver  driver;
+	   WebDriver  driver;
 	By loginBtn= By.xpath("//button");
 	By username=By.id("email");
 	By password=By.id("pass");

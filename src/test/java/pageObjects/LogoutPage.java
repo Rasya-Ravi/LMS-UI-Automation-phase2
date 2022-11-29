@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class LogoutPage {
 
 	
-		WebDriver driver;
+		WebDriver  driver;
 	    
 		By Logout_button = By.xpath("//div['Logout')]");
 		By Login_button = By.xpath("//div{'Login']");

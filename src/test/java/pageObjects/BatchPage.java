@@ -17,7 +17,7 @@ import junit.framework.Assert;
 
 public class BatchPage {
 
-	WebDriver driver;
+	WebDriver  driver;
 
 	public BatchPage(WebDriver driver) {
 		this.driver = driver;

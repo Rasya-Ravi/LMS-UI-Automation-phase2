@@ -13,7 +13,7 @@ public class Logout extends BaseClass {
 		driver.manage().window().maximize();
 		lop = new LogoutPage(driver);
 		String Actualtitle = ap.ValidateHomepagetitle();
-	    String Expectedtitle = "page title";
+	    String Expectedtitle  = "page title";
 	    Assert.assertEquals(Expectedtitle, Actualtitle);
 	    System.out.println(Actualtitle);
 	}

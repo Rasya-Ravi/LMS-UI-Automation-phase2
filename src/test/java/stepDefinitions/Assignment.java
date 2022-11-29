@@ -423,6 +423,7 @@ public class Assignment extends BaseClass {
      public void staff_is_on_manage_assignment_page() {
          
      }
+     
 
      @When("Staff clicks a Add new assignment button")
      public void staff_clicks_a_add_new_assignment_button() {
@@ -521,7 +522,7 @@ public void staff_clicks_an_edit_assignment_button() {
 public void staff_should_see_a_assignment_details_window() {
     
 }
-@Given("Staff is on Assignment Details page1")
+@Given("Staff is on Assignment Details page")
 public void staff_is_on_assignment_details_page1() {
     
 }

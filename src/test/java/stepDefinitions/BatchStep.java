@@ -20,7 +20,7 @@ public class BatchStep extends BaseClass {
 	@When("Admin\\/User\\/Staff Clicks on Batch button")
 	public void admin_user_staff_clicks_on_batch_button() {
 		bp = new BatchPage(driver);
-		bp.clickOnBatchBtn();
+		bp.clickOnBatchBtn() ;
 	}
 
 	@Then("Admin\\/User\\/Staff see header text as {string}")

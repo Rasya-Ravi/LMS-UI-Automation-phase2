@@ -19,6 +19,6 @@ public class BaseClass {
 	public static LogInPage lp;
 	public static BatchPage bp;
 	static {
-		driver= getDriver();
+		driver=  getDriver();
 	}
 }

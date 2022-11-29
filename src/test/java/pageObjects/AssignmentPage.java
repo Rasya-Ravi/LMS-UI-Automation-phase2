@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class AssignmentPage {
+	
+	
 	WebDriver driver;
 	
     By lmstitle = By.xpath("//title");

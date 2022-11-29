@@ -162,7 +162,7 @@ Feature: Login
     Given Admin/User/Staff is on Reset Password Page as title ""
     When Admin/User/Staff clicks submit button after entering new password and retype password
       | dummy923 | dummy923 |
-    Then It should display an error message "The password must contain one Special character"
+    Then It should display an error message "The password must  contain one Special character"
 
   Scenario: Validate Reset password with cancel button
     Given Admin/User/Staff is on Reset Password Page as title "  "

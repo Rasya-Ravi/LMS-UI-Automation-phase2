@@ -168,7 +168,7 @@ Scenario: Staff Edit Assignment Name in Assignment Details window
      Scenario: Staff Edit Assignment Grade in Assignment Details window
      Given Staff is on Assignment Details page
      When Staff clicks Save button After edits Assignment Grade
-     Then Staff should see a message "Assignment Grade Updated" 
+     Then Staff should see a message "Assignment  Grade Updated" 
        
     Scenario: Staff Edit Assignment DueDate in Assignment Details window
      Given Staff is on Assignment Details page

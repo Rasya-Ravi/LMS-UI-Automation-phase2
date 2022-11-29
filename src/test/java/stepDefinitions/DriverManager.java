@@ -15,7 +15,7 @@ import io.qameta.allure.Allure;
 
 public class DriverManager {
 	
-	public static WebDriver  driver_init;
+	public static WebDriver   driver_init;
 
     @BeforeAll
     public static void before_all() {

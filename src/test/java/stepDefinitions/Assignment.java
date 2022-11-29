@@ -524,7 +524,8 @@ public void staff_should_see_a_assignment_details_window() {
 }
 @Given("Staff is on Assignment Details page")
 public void staff_is_on_assignment_details_page1() {
-    
+ 
+	
 }
 
 @When("Staff clicks Save button  after edits Assignment Name")

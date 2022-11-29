@@ -39,7 +39,7 @@ public class LogInStep extends BaseClass {
 	}
 
 	@When("^User clicks login button after entering Username and Password$")
-	public void user_clicks_login_button_after_entering_username_and_password(DataTable usercredentials)
+	public  void user_clicks_login_button_after_entering_username_and_password(DataTable usercredentials)
 			throws InterruptedException {
 		Thread.sleep(500);
 		List<Map<String, String>> data = usercredentials.asMaps(String.class, String.class);

@@ -9,7 +9,7 @@ import pageObjects.LogoutPage;
 public class Logout extends BaseClass {
 
 	@Given("Admin\\/User\\/Staff Logged on to LMS website {string}")
-	public void admin_user_staff_logged_on_to_lms_website(String string) {
+	public  void admin_user_staff_logged_on_to_lms_website(String string) {
 		driver.manage().window().maximize();
 		lop = new LogoutPage(driver);
 		String Actualtitle = ap.ValidateHomepagetitle();

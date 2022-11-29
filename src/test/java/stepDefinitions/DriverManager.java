@@ -1,10 +1,17 @@
 package stepDefinitions;
 
+import java.io.ByteArrayInputStream;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Scenario;
+import io.qameta.allure.Allure;
 
 public class DriverManager {
 	
@@ -23,6 +30,14 @@ public class DriverManager {
     }
     @AfterAll
     public static void after_all() {
-    	//driver_init.quit();
+    	driver_init.quit();
     }
+    @After
+   	public void after(Scenario scenario) {
+   		if(scenario.isFailed()){
+   			byte[] screenshot=((TakesScreenshot)driver_init).getScreenshotAs(OutputType.BYTES);
+   			Allure.addAttachment("Failed Screenshot", new ByteArrayInputStream(screenshot));
+   		}
+   	}
+
 }

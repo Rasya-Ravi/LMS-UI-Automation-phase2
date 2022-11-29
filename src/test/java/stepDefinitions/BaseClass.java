@@ -8,6 +8,8 @@ import pageObjects.AssignmentPage;
 import pageObjects.BatchPage;
 import pageObjects.LogInPage;
 import pageObjects.LogoutPage;
+import pageObjects.ProgramPage;
+import pageObjects.RegistrationPage;
 
 
 
@@ -18,6 +20,8 @@ public class BaseClass {
 	public static LogoutPage lop;
 	public static LogInPage lp;
 	public static BatchPage bp;
+	public static ProgramPage pp;
+	public static RegistrationPage rp;
 	static {
 		driver=  getDriver();
 	}

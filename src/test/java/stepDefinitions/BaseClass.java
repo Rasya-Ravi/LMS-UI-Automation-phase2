@@ -14,6 +14,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static AssignmentPage ap;
 	public static LogoutPage lp;
+	
 	static {
 		driver= getDriver();
 	}
